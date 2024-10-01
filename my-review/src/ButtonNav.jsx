@@ -21,6 +21,7 @@ function ButtonNav() {
             <Links to="/">홈</Links>
             <Links to="/1">타이머</Links>
             <Links to="/2">글자 수 세기</Links>
+            <Links to="/stopwatch">스톱워치</Links>
         </nav>
     )
 };

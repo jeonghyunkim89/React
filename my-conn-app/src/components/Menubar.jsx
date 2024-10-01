@@ -21,7 +21,8 @@ export const Menubar = () => {
         <nav>
             <MyLink to="/">Home</MyLink>    |&nbsp;
             <MyLink to="/pt1">연습</MyLink>   |&nbsp;
-            <MyLink to="/pt2">연습2</MyLink>
+            <MyLink to="/pt2">연습2</MyLink>    |&nbsp;
+            <MyLink to="/chatbot">챗봅</MyLink> 
         </nav>  
     )
 }
