@@ -7,6 +7,7 @@ import CountNum from './page/CountNum';
 import Main from './page/Main';
 import { createContext, useState } from 'react';
 import Stopwatch from './page/Stopwatch';
+import Wait from './page/Wait';
 
 export const UserContext = createContext();
 
@@ -39,6 +40,7 @@ function App() {
               <Route path="/1" element={<Timer/>}/>
               <Route path="/2" element={<CountNum />} />
               <Route path="/stopwatch" element={<Stopwatch/>} />
+              <Route path="/3" element={<Wait/>} />
             </Routes>
           </main>
         </UserContext.Provider>
